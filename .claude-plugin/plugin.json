@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "engrim-audit",
+  "version": "0.1.0",
+  "description": "Audit an engrim project memory store for rot: unresolved supersede references, stale state stacks, orphaned/mistagged project tags, and (opt-in) near-duplicate or oversized active sets. Read-only report; fixes are proposed for your approval. One slash command: /engrim-audit.",
+  "author": {
+    "name": "Tal Golan"
+  },
+  "repository": "https://github.com/talgolan/engrim-audit",
+  "license": "MIT",
+  "keywords": ["engrim", "memory", "audit", "maintenance", "claude-code", "hygiene"]
+}
